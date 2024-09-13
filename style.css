@@ -1,0 +1,107 @@
+.login-body {
+    background: #004bad6e;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.login-container {
+    background: #ffffffbc;
+    padding: 10px;
+    width: 490px;    
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+
+    background-size: cover;
+    background-position: center;
+}
+
+@media(max-width: 576px)
+{
+    .login-container {       
+        top: 50%;
+        left: 50%;       
+        transform: translate(-30%, -30%);
+        transform-style: preserve-3d;
+        transition: transform 1s;
+    }
+}
+
+.form-header {
+    margin-top: 121px;
+}
+
+input[type='text'], input[type='password'], input[type='email'] {
+    width: 405px;
+    margin-left: 43px;
+    margin-right: 42px;
+    margin-bottom: 59px;
+    border-radius: 10px;
+    background: #e2e2e2cc;
+    height: 67px;
+}
+
+.login-container button {
+    border-radius: 30px;
+    background: #ff8266;
+    width: 405px;
+    height: 67px;
+    flex-shrink: 0;
+    margin-left: 43px;
+    margin-right: 42px;
+    color: #004AAD;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.login-container p {
+    margin: 12px 122px 164px 164px;  
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    width: 162px;
+    height: 19px;
+    flex-shrink: 0;
+    transform-style: preserve-3d;
+    transition: transform 4s;
+}
+/* .login-container>p{
+    margin-top: 12px;
+} */
+.login-container .link-end{
+    margin-bottom: 122px;
+}
+
+.login-container p a{
+    color: #004AAD;
+}
+
+.form-group-1, .form-group, .form-code-3 {
+    position: relative;    
+    margin-right: 30px;
+}
+
+.text-input {
+    padding: 8px 30px 8px 10px;
+    border: 1px dotted rgb(0, 162, 255);
+    border-radius: 4px;
+    width: 200px;         
+}
+
+.input-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;          
+    transform: translateY(-50%);
+    color: #aaa;
+}
+

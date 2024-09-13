@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-5.3.1-dist/css/bootstrap.min.css">
+    <script src="bootstrap-5.3.1-dist/js/jquery-3.3.1.min.js"></script>
+</head>
+
+<body class="login-body">
+    <div class="container-fluid">
+        <div class="login-container">
+            <h2 class="form-header text-center mb-5" >Login</h2>
+            <form method="get" action="">
+
+                <div class="form-group-1">
+                    <input type="text" name="Username" placeholder="Username" required class="form-control text-input">
+                    <!-- <img class="input-icon" src="images/user.png" alt="">
+                </div> -->
+
+                <div class="form-group">
+                    <input type="password" id="password" name="email" placeholder="Password" required
+                        class="form-control text-input">
+                    <!-- <img id="password-toggler" toggle="#password" class="input-icon" src="images/lock.svg"> -->
+                </div>
+
+                <button type="submit" class="btn btn-warning">Login</button>
+                <p>
+                    <a class="text-decoration-none" href="forgot-password.html">Forgot Password</a>
+                </p>
+
+                </form>
+
+
+
+        </div>
+        <script>
+            var card = document.getElementById("card")
+
+            function openRegister(){
+                card.style.transform = "rotateY(-180deg)";
+            }
+            function openLogin(){
+                card.style.transform = "rotateY(0deg)";
+            }
+
+
+        </script>
+    </div>
+
+   
+</body>
+
+</html>
+
+
+
